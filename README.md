@@ -1,10 +1,10 @@
-# Pysoerial
+# Pysoserial
 
 ## 介绍
 
 [![Python 3.x](https://img.shields.io/badge/python-3.x-yellow.svg)](https://www.python.org/) [![Python 2.x](https://img.shields.io/badge/python-2.x-green.svg)](https://www.python.org/)
 
-Pysoerial是完全由python编写的用于生成利用不安全Java对象反序列化的有效负载的概念验证工具。工具参考[ysoserial](https://github.com/frohoff/ysoserial)
+Pysoserial是完全由python编写的用于生成利用不安全Java对象反序列化的有效负载的概念验证工具。工具参考[ysoserial](https://github.com/frohoff/ysoserial)
 
 ## 安装
 
@@ -33,7 +33,7 @@ optional arguments:
   -l, --list            Payload List
 
 examples:
-  python pysosial.py -p CommonsCollections1 -c whoami
+  python pysoserial.py -p CommonsCollections1 -c whoami
   python pysoserial.py -p CommonsCollections1 -c whoami -o payload.ser
 ```
 
