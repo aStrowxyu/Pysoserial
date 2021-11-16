@@ -11,7 +11,7 @@ Pysoerial是完全由python编写的用于生成利用不安全Java对象反序�
 使用git拉取项目
 
 ```bash
-git clone https://github.com/aStrowxyu/Pysoerial
+git clone https://github.com/aStrowxyu/Pysoserial
 ```
 
 ## 使用
@@ -33,8 +33,8 @@ optional arguments:
   -l, --list            Payload List
 
 examples:
-  python pysoerial.py -p CommonsCollections1 -c whoami
-  python pysoerial.py -p CommonsCollections1 -c whoami -o payload.ser
+  python pysosial.py -p CommonsCollections1 -c whoami
+  python pysoserial.py -p CommonsCollections1 -c whoami -o payload.ser
 ```
 
 ## 参考项目
